@@ -55,8 +55,8 @@ ROOT_URLCONF = 'Alex_test_1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,7 +70,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Alex_test_1.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
@@ -108,8 +107,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # LANGUAGE_CODE = 'en-us'
 LANGUAGE_CODE = 'zh-hans'
 
-# TIME_ZONE = 'UTC'
-TIME_ZONE = 'Asia/shanghai'
+TIME_ZONE = 'UTC'
+# TIME_ZONE = 'Asia/shanghai'
 
 USE_I18N = True
 
