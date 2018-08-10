@@ -18,6 +18,7 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     url('admin/', admin.site.urls),
+    url('users/',include('users.urls')),
     url('', include('comments.urls')),
     url('', include('blog.urls')),
 #     需换位，否则 评论不显示
